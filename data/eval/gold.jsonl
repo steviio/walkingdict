@@ -1,0 +1,30 @@
+{"query": "book", "expected_word": "book", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "free", "expected_word": "free", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "dictionary", "expected_word": "dictionary", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "run", "expected_word": "run", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "light", "expected_word": "light", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "ephemeral", "expected_word": "ephemeral", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "recieve", "expected_word": "receive", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "dictionery", "expected_word": "dictionary", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "gosting", "expected_word": "ghosting", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "beutiful", "expected_word": "beautiful", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "nesesary", "expected_word": "necessary", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "occured", "expected_word": "occurred", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "ghosted", "expected_word": "ghost", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "mid", "expected_word": "mid", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "sus", "expected_word": "sus", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "yeet", "expected_word": "yeet", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "flex", "expected_word": "flex", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "salty", "expected_word": "salty", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "break the ice", "expected_word": "break the ice", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "piece of cake", "expected_word": "piece of cake", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "spill the beans", "expected_word": "spill the beans", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "hit the nail on the head", "expected_word": "hit the nail on the head", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "cost an arm and a leg", "expected_word": "cost an arm and a leg", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "let the cat out of the bag", "expected_word": "let the cat out of the bag", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "a reference work that lists words and their meanings", "expected_word": "dictionary", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "lasting only a very short time", "expected_word": "ephemeral", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "feeling of longing for the past", "expected_word": "nostalgia", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "happiness and satisfaction", "expected_word": "contentment", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "the study of word origins", "expected_word": "etymology", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a person who writes dictionaries", "expected_word": "lexicographer", "expected_source": "wiktionary", "bucket": "paraphrase"}

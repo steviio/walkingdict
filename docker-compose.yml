@@ -1,0 +1,74 @@
+services:
+  # ── Ollama LLM server ────────────────────────────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: walkingdict-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama   # persist downloaded models across restarts
+    healthcheck:
+      test: ["CMD", "bash", "-c", "cat < /dev/null > /dev/tcp/localhost/11434"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  # ── One-shot model puller (runs once, then exits) ────────────────────────────
+  # Pulls LLM and nomic-embed-text (embeddings).
+  # ollama pull is idempotent — safe to re-run on subsequent `docker compose up`.
+  ollama-init:
+    image: ollama/ollama:latest
+    container_name: walkingdict-ollama-init
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        echo ">>> Pulling LLM model (qwen3.5:9b)..."
+        ollama pull qwen3.5:9b
+        echo ">>> Pulling embedding model (nomic-embed-text)..."
+        ollama pull nomic-embed-text
+        echo ">>> Models ready."
+    restart: "no"
+
+  # ── Streamlit app ────────────────────────────────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: walkingdict-app
+    ports:
+      - "8501:8501"
+    depends_on:
+      ollama-init:
+        condition: service_completed_successfully
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      # Mount local data and vector store so they persist outside the container.
+      # Run ingestion scripts inside the container when starting fresh:
+      #   docker compose run --rm app python ingestion/etl_urban_dict.py
+      #   docker compose run --rm app python ingestion/etl_wordnet.py
+      #   # optional: etl_wiktionary.py, etl_idioms.py
+      #   docker compose run --rm app python ingestion/unify_schema.py
+      #   docker compose run --rm app python ingestion/embed_and_index.py
+      #   docker compose run --rm app python ingestion/build_word_index.py
+      #   docker compose run --rm app python ingestion/build_symspell_dict.py
+      - ./chroma_db:/app/chroma_db
+      - ./data:/app/data
+    restart: unless-stopped
+
+volumes:
+  ollama_data:   # named volume keeps Ollama models between `docker compose down` runs

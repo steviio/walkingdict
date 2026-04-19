@@ -1,0 +1,38 @@
+# Version control
+.git/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[codz]
+*.pyo
+
+# Test artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Local data — mounted as volumes at runtime, not baked into the image
+chroma_db/
+data/
+
+# Local config
+.env
+.envrc
+
+# Editor / tool config
+.claude/
+.vscode/
+.ruff_cache/
+.mypy_cache/
+

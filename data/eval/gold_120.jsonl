@@ -1,0 +1,120 @@
+{"query": "book", "expected_word": "book", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "free", "expected_word": "free", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "dictionary", "expected_word": "dictionary", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "run", "expected_word": "run", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "light", "expected_word": "light", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "ephemeral", "expected_word": "ephemeral", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "water", "expected_word": "water", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "computer", "expected_word": "computer", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "music", "expected_word": "music", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "science", "expected_word": "science", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "language", "expected_word": "language", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "history", "expected_word": "history", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "knowledge", "expected_word": "knowledge", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "nature", "expected_word": "nature", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "family", "expected_word": "family", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "memory", "expected_word": "memory", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "journey", "expected_word": "journey", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "adventure", "expected_word": "adventure", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "beautiful", "expected_word": "beautiful", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "quiet", "expected_word": "quiet", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "strong", "expected_word": "strong", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "ocean", "expected_word": "ocean", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "mountain", "expected_word": "mountain", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "forest", "expected_word": "forest", "expected_source": "wiktionary", "bucket": "exact_common"}
+{"query": "recieve", "expected_word": "receive", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "dictionery", "expected_word": "dictionary", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "gosting", "expected_word": "ghosting", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "beutiful", "expected_word": "beautiful", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "nesesary", "expected_word": "necessary", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "occured", "expected_word": "occurred", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "seperate", "expected_word": "separate", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "definately", "expected_word": "definitely", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "accomodate", "expected_word": "accommodate", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "tommorow", "expected_word": "tomorrow", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "wierd", "expected_word": "weird", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "rythm", "expected_word": "rhythm", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "goverment", "expected_word": "government", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "arguement", "expected_word": "argument", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "existance", "expected_word": "existence", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "acheive", "expected_word": "achieve", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "embarass", "expected_word": "embarrass", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "independant", "expected_word": "independent", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "maintainance", "expected_word": "maintenance", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "pronounciation", "expected_word": "pronunciation", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "untill", "expected_word": "until", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "becuase", "expected_word": "because", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "freind", "expected_word": "friend", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "langauge", "expected_word": "language", "expected_source": "wiktionary", "bucket": "typo"}
+{"query": "ghosted", "expected_word": "ghost", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "mid", "expected_word": "mid", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "sus", "expected_word": "sus", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "yeet", "expected_word": "yeet", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "flex", "expected_word": "flex", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "salty", "expected_word": "salty", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "lit", "expected_word": "lit", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "slay", "expected_word": "slay", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "cap", "expected_word": "cap", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "vibe", "expected_word": "vibe", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "cringe", "expected_word": "cringe", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "simp", "expected_word": "simp", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "bae", "expected_word": "bae", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "roast", "expected_word": "roast", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "savage", "expected_word": "savage", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "stan", "expected_word": "stan", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "lowkey", "expected_word": "lowkey", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "bop", "expected_word": "bop", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "woke", "expected_word": "woke", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "shook", "expected_word": "shook", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "fire", "expected_word": "fire", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "thirsty", "expected_word": "thirsty", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "hangry", "expected_word": "hangry", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "ship", "expected_word": "ship", "expected_source": "wiktionary", "bucket": "slang"}
+{"query": "break the ice", "expected_word": "break the ice", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "piece of cake", "expected_word": "piece of cake", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "spill the beans", "expected_word": "spill the beans", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "hit the nail on the head", "expected_word": "hit the nail on the head", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "cost an arm and a leg", "expected_word": "cost an arm and a leg", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "let the cat out of the bag", "expected_word": "let the cat out of the bag", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "once in a blue moon", "expected_word": "once in a blue moon", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "kick the bucket", "expected_word": "kick the bucket", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "under the weather", "expected_word": "under the weather", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "bite the bullet", "expected_word": "bite the bullet", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "burn the midnight oil", "expected_word": "burn the midnight oil", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "call it a day", "expected_word": "call it a day", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "cut corners", "expected_word": "cut corners", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "beat around the bush", "expected_word": "beat around the bush", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "a blessing in disguise", "expected_word": "a blessing in disguise", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "barking up the wrong tree", "expected_word": "barking up the wrong tree", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "add insult to injury", "expected_word": "add insult to injury", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "on cloud nine", "expected_word": "on cloud nine", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "pull yourself together", "expected_word": "pull yourself together", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "throw in the towel", "expected_word": "throw in the towel", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "miss the boat", "expected_word": "miss the boat", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "see eye to eye", "expected_word": "see eye to eye", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "jump on the bandwagon", "expected_word": "jump on the bandwagon", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "the ball is in your court", "expected_word": "the ball is in your court", "expected_source": "idioms", "bucket": "idiom"}
+{"query": "a reference work that lists words and their meanings", "expected_word": "dictionary", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "lasting only a very short time", "expected_word": "ephemeral", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "feeling of longing for the past", "expected_word": "nostalgia", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "happiness and satisfaction", "expected_word": "contentment", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "the study of word origins", "expected_word": "etymology", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a person who writes dictionaries", "expected_word": "lexicographer", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "fear of small enclosed spaces", "expected_word": "claustrophobia", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "fear of spiders", "expected_word": "arachnophobia", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a person who loves books", "expected_word": "bibliophile", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "extremely careful about small details", "expected_word": "meticulous", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "impossible to defeat", "expected_word": "invincible", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "existing everywhere at once", "expected_word": "ubiquitous", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a short witty saying", "expected_word": "aphorism", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "the scientific study of living organisms", "expected_word": "biology", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "lasting forever", "expected_word": "eternal", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a sudden insight or realization", "expected_word": "epiphany", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a word having the same meaning as another", "expected_word": "synonym", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a word opposite in meaning to another", "expected_word": "antonym", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a word that sounds like what it describes", "expected_word": "onomatopoeia", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a person extremely unwilling to spend money", "expected_word": "miser", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "the use of words to convey the opposite meaning", "expected_word": "irony", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "existing only in imagination", "expected_word": "imaginary", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "a person with great wisdom", "expected_word": "sage", "expected_source": "wiktionary", "bucket": "paraphrase"}
+{"query": "impossible to forget", "expected_word": "unforgettable", "expected_source": "wiktionary", "bucket": "paraphrase"}
