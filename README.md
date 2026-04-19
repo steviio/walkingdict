@@ -150,7 +150,7 @@ walkingdict/
 ├── ui/                 # Streamlit components: sidebar, main_panel, right_column,
 │                       #   extras, storage
 ├── scripts/            # run_eda.py, run_eval.py — thin CLI wrappers over the notebooks
-├── notebooks/          # eda.ipynb, eval.ipynb, eval_120.ipynb (corpus + retrieval eval)
+├── notebooks/          # eda.ipynb, eval.ipynb (corpus + retrieval eval)
 ├── data/
 │   ├── raw/            # Source dumps (gitignored)
 │   ├── processed/      # unified_corpus.jsonl, word_index.pkl, symspell_dict.txt, wotd_cache.json

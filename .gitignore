@@ -17,6 +17,7 @@ chroma_db/*
 notebooks/eda_results/*
 notebooks/figs/*
 data/eval/eval_results/*
+!data/eval/eval_results/.gitkeep
 
 # Tests
 tests/
