@@ -2,6 +2,8 @@
 
 Look up any word, slang, or idiom and get explanations that actually make sense to *you*. Powered by a local LLM (Ollama) and a multi-source dictionary corpus (Urban Dictionary, WordNet, idioms; Wiktionary optional).
 
+Read the full write-up: [Project Report](https://drive.google.com/drive/folders/1xVVet956cnOGJiRxlmk6EEYR4yCoQDef?usp=sharing)
+
 ## How it works
 
 1. You type a word, phrase, or slang term.

@@ -97,8 +97,16 @@ class QueryPipeline:
         raw_input: str,
         top_k: int = TOP_K_RESULTS,
         category_hint: str | None = None,
+        skip_correction: bool = False,
     ) -> QueryResult:
-        """Run exact/fuzzy lookup + vector search and return combined results."""
+        """Run exact/fuzzy lookup + vector search and return combined results.
+        
+        Args:
+            raw_input: The user's search input
+            top_k: Number of similar results to return
+            category_hint: Optional category filter
+            skip_correction: If True, skip spell correction (user explicitly chose this input)
+        """
         if not self._loaded:
             self.load()
 
@@ -111,7 +119,7 @@ class QueryPipeline:
         exact_word = normalised
         exact_hits = self._fetch_exact(normalised)
 
-        if not exact_hits:
+        if not exact_hits and not skip_correction:
             correction = self._spell.correct(normalised)
             if correction.was_corrected:
                 exact_word = correction.corrected

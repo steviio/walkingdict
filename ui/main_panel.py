@@ -101,9 +101,10 @@ def _run_lookup(
     profile: UserProfile,
     pipeline: QueryPipeline,
     generator: Generator,
+    skip_correction: bool = False,
 ) -> None:
     with st.spinner(f"Looking up \"{query}\"…"):
-        result = pipeline.query(query, category_hint=_infer_category_hint(query))
+        result = pipeline.query(query, category_hint=_infer_category_hint(query), skip_correction=skip_correction)
 
     word = result.correction.corrected if (result.correction and result.correction.was_corrected) else result.query
 
@@ -232,10 +233,11 @@ def render_main_panel(profile: UserProfile) -> None:
         st.session_state["correction_original"] = None
 
     pending = st.session_state.pop("pending_query", None)
+    pending_skip_correction = st.session_state.pop("pending_skip_correction", False)
     if pending:
         st.session_state["correction_candidates"] = []
         st.session_state["correction_original"] = None
-        _run_lookup(pending, profile, pipeline, generator)
+        _run_lookup(pending, profile, pipeline, generator, skip_correction=pending_skip_correction)
         st.rerun()
 
     if submitted and user_input.strip():
@@ -271,6 +273,7 @@ def render_main_panel(profile: UserProfile) -> None:
                 st.session_state["correction_candidates"] = []
                 st.session_state["correction_original"] = None
                 st.session_state["pending_query"] = original_input
+                st.session_state["pending_skip_correction"] = True
                 st.rerun()
         return
 
